@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import { MongoClient } from 'mongodb';
 import express from 'express';
 import cors from "cors";
-import {insertUser , login , updateCards , addCard , getRequestArr , updateHistory} from './services.js';
+import {insertUser , login , updateCards , addCard , updateHistory} from './services.js';
 import bodyparser from 'body-parser';
 import dotenv from 'dotenv';
 dotenv.config();
